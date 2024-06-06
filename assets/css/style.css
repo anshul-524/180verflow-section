@@ -33,6 +33,7 @@ align-content: center;
 justify-content: center;
 align-items: center;
 justify-items: center;
+overflow-x: hidden;
 }
 .head{
     color: #FFFFFF;
@@ -57,14 +58,13 @@ justify-items: center;
   font-weight: 600;
   font-style: normal;
 
-  
+  margin-left: 23px;
 }
 .box{
     display: flex;
     background: #0C0B0B;
 border-radius: 46px;
 margin-bottom: 16px;
-gap: 23px;
 padding: 13px 10px;
 }
 .one{
@@ -88,14 +88,6 @@ color: rgba(255, 255, 255, 1);
     padding-left: 12px;
     padding-right: 12px;
     
-}
-.images{
-    overflow: hidden;
-    position: absolute;
-    right:  0;
-    width: 50%;
-    
-
 }
 .to{
     opacity: 70%;
