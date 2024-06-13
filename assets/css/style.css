@@ -92,3 +92,19 @@ color: rgba(255, 255, 255, 1);
 .to{
     opacity: 70%;
 }
+
+
+.position_relative{position: relative;}
+.image{
+    width: 50%;
+    max-width: 800px;
+    max-height: 636px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width:992px) {
+    
+}
